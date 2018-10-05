@@ -11,7 +11,7 @@ public void ConfigureServices(IServiceCollection services)
 		.AddMiddleware<Blazor.Fluxor.ReduxDevTools.ReduxDevToolsMiddleware>()
 		.AddMiddleware<Blazor.Fluxor.Routing.RoutingMiddleware>()
 	);
-};
+}
 ```
 
 ## Required changes to state classes
